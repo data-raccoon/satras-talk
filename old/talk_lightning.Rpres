@@ -1,0 +1,51 @@
+Showcase: Score keeping and skill analytics (SATraS)
+==============================================================================
+author: Stephan Porz
+date: Europython 2017
+
+Stephan Porz
+==============================================================================
+* Physicist & Data Scientist
+* Python & R
+* eyeo GmbH
+  * Adblock Plus (Adblocker)
+  * Flattr (Microtransactions)
+TODO images
+![alt text](myimage.png)
+
+Free time activities
+==============================================================================
+* Board games
+* Card games
+* Computer games
+
+* multiplayer
+* varying teams
+
+Group interested in insights about itself
+==============================================================================
+* keep track of game scores
+* how good are players?
+  * and how do they develop?
+* what impact have influencing factors?
+  * roles, handicaps, etc.
+
+Implementation: glue together libraries in Python
+==============================================================================
+* wisent (data gathering & parsing)
+* trueskill (extract skills)
+* pandas (stats & aggregations)
+* dash (UI)
+* ??? (visualization)
+
+store game results
+==============================================================================
+* human & machine readable
+* quick to write down
+
+```{text}
+Alice > Bob
+Alice = Bob
+Alice > Bob = Charlie
+(Alice, Bob) > (Charlie, David)
+```
