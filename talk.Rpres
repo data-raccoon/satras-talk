@@ -1,0 +1,96 @@
+Showcase: Score keeping and skill analytics (SATraS)
+==============================================================================
+author: Stephan Porz
+date: 2017-07-27, Data Science Meetup Köln, STARTPLATZ
+
+
+Resources
+==============================================================================
+This talk and what's it about
+* [https://github.com/data-raccoon/satras-talk](https://github.com/data-raccoon/satras-talk)
+* [https://github.com/data-raccoon/satras](https://github.com/data-raccoon/satras-talk)
+* [https://github.com/data-raccoon/europython2017](https://github.com/data-raccoon/europython2017)
+
+Author
+* Stephan Porz
+* Physicist & Data Scientist
+* Python & R
+* [eyeo GmbH](https://eyeo.com)
+  * [Adblock Plus](https://adblockplus.org) (adblocker)
+  * [Flattr](https://flattr.com) (funding great content)
+
+
+Europython 2017
+==============================================================================
+Conference about Python ([https://ep2017.europython.eu](https://ep2017.europython.eu))
+* diverse audience & speakers
+  * from many different countries and backgrounds
+* great community
+  * sharing knowledge
+  * shaping the future
+* large interest in data science topics
+  * from data scientist & newcomers
+
+
+Europython 2017
+==============================================================================
+Several talks about data science topics
+* Keynote about data visualization
+* Introduction to AI framework Tensorflow
+* [Youtube: Europython Conference](https://www.youtube.com/user/PythonItalia)
+* [Data cleaning, validation and testing workshop](https://github.com/kjam/data-cleaning-101)
+* [Full-stack data science workshop](https://github.com/amitkaps/full-stack-data-science)
+
+
+Europython 2017
+==============================================================================
+Many talks related to data science topics
+* best practices for programming in general
+* introductions to libraries, frameworks, architectures
+
+Exposure to people outside data science
+* connected by one language and community
+* strong gain from many different perspectives
+
+
+Libraries
+==============================================================================
+
+
+
+Free time activities
+==============================================================================
+* Board games
+* Card games
+* Computer games
+
+* multiplayer
+* varying teams
+
+Group interested in insights about itself
+==============================================================================
+* keep track of game scores
+* how good are players?
+  * and how do they develop?
+* what impact have influencing factors?
+  * roles, handicaps, etc.
+
+Implementation: glue together libraries in Python
+==============================================================================
+* wisent (data gathering & parsing)
+* trueskill (extract skills)
+* pandas (stats & aggregations)
+* dash (UI)
+* ??? (visualization)
+
+store game results
+==============================================================================
+* human & machine readable
+* quick to write down
+
+```{text}
+Alice > Bob
+Alice = Bob
+Alice > Bob = Charlie
+(Alice, Bob) > (Charlie, David)
+```
