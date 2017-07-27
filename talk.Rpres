@@ -6,10 +6,9 @@ date: 2017-07-27, Data Science Meetup Köln, STARTPLATZ
 
 Resources
 ==============================================================================
-This talk and what's it about
+* [https://github.com/data-raccoon/europython2017](https://github.com/data-raccoon/europython2017)
 * [https://github.com/data-raccoon/satras-talk](https://github.com/data-raccoon/satras-talk)
 * [https://github.com/data-raccoon/satras](https://github.com/data-raccoon/satras-talk)
-* [https://github.com/data-raccoon/europython2017](https://github.com/data-raccoon/europython2017)
 
 Author
 * Stephan Porz
@@ -55,42 +54,38 @@ Exposure to people outside data science
 
 Libraries
 ==============================================================================
+* explosion of libraries and frameworks within the last few years
 
 
-
-Free time activities
+Trueskill
 ==============================================================================
-* Board games
-* Card games
-* Computer games
+* [Trueskill demo](http://localhost:8888/notebooks/demo_trueskill.ipynb)
 
-* multiplayer
-* varying teams
 
-Group interested in insights about itself
+Trueskill references
 ==============================================================================
-* keep track of game scores
-* how good are players?
-  * and how do they develop?
-* what impact have influencing factors?
-  * roles, handicaps, etc.
+- [TrueSkill project website](http://trueskill.org)
+- [TrueSkill on GitHub](https://github.com/sublee/trueskill)
+- [TrueSkill on Wikipedia](https://en.wikipedia.org/wiki/TrueSkill)
+- [TrueSkill explanation](http://bit.ly/computing-your-skill)
+- [TrueSkill whitepaper](http://research.microsoft.com/apps/pubs/default.aspx?id=67956)
 
-Implementation: glue together libraries in Python
+
+Wisent
 ==============================================================================
-* wisent (data gathering & parsing)
-* trueskill (extract skills)
-* pandas (stats & aggregations)
-* dash (UI)
-* ??? (visualization)
+* [Wisent demo](http://localhost:8888/notebooks/demo_wisent.ipynb)
 
-store game results
+
+Wisent references
 ==============================================================================
-* human & machine readable
-* quick to write down
+- [Wisent author's project webosite](http://www.seehuhn.de/pages/wisent)
+- [Wisent on GitHub](https://github.com/seehuhn/wisent)
+- [Wisent tutorial](http://www.seehuhn.de/manuals/wisent/ch2tutorial.html)
+- [Wisent manual](http://www.seehuhn.de/manuals/wisent)
 
-```{text}
-Alice > Bob
-Alice = Bob
-Alice > Bob = Charlie
-(Alice, Bob) > (Charlie, David)
-```
+
+References
+==============================================================================
+- Code demo: [Jupyter](http://jupyter.org)
+- Slides: [Rpres](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)
+
